@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="IN_gEch70(aygv3yU)Qc" x="20" y="20"></block><block type="device_forever" id="ZeC%/XcuAWA4nVAe=I=l" x="225" y="20"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="ZeC%/XcuAWA4nVAe=I=l" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="%fz+Z.CGMf:o:_{f#cbJ"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="I$/;^TJ%uLn/,3DCa:I/"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="0cvo4Ph#2OPwPo`%V9T^"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="f.t{C)hr#X3W`p,Php?("><field name="NUM">0</field></shadow><block type="device_temperature" id="11h8F-q2qir/iH2wz~un"></block></value><value name="B"><shadow type="math_number" id="nna0fhN;J4x!zC7lfS0t"><field name="NUM">30</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="~|LN`_Vw`H2{VDR%n{I*"><field name="LEDS">`
+        # . . . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_print_message" id="Y5n/.)]1FLpaMktpsQHp"><value name="text"><shadow type="text" id="~:#?qGACPZ{*$Ml5/*^$"><field name="TEXT">Hello!</field></shadow><block type="device_temperature" id="x{d9AgXj0oZ0bTr{};mU"></block></value></block></statement></block></statement></block></xml>
